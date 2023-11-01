@@ -1,0 +1,54 @@
+.Plans{
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
+  margin: auto;
+}
+.ContainPlans{
+  max-width: 400px;
+  background: #FEC63E;
+  color: color;
+  border-radius: 2px;
+  padding: 60px;
+}
+.ContainPlans ul{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Roboto Slab';
+}
+.ContainPlans li{
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+}
+.ContainPlans h1{
+  font-size: 4rem;
+  text-align: center;
+}
+.ContainPlans button{
+  padding: 20px 60px;
+  background: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-left: 60px;
+}
+@media (max-width:1200px){
+  .Plans{
+    flex-direction: column;
+  }
+}
+@media (max-width:500px){
+  .ContainPlans{
+    width: 230px;
+    margin-left: 10px;
+  }
+  .ContainPlans ul{
+    font-size: 18px;
+  }
+  .ContainPlans button{
+    padding: 10px;
+    margin-left: 40px;
+  }
+}

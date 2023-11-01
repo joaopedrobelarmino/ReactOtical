@@ -1,0 +1,27 @@
+.Guarantee{
+  padding-top: 160px;
+  padding-bottom: 160px;
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Guarantee h1{
+  font-size: 9rem;
+}
+.Guarantee h1 span{
+  border-bottom: 4px solid #FEC63E;
+}
+@media (max-width:800px){
+  .Guarantee {
+    text-align: center;
+    flex-direction: column;
+  }
+  .Guarantee img{
+    width: 300px;
+  }
+  .Guarantee h1{
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,21 @@
+li {
+  list-style: none;
+}
+body {
+  background: #f1f1f1;
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 2px;
+}
+a {
+  text-decoration: none;
+}
+.active {
+  color: #FFBC1A;
+
+  border-bottom:2px solid  #FFBC1A;
+}

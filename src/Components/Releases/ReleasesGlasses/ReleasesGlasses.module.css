@@ -1,0 +1,37 @@
+.ReleasesContain{
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+.ReleasesGlasses img{
+  width: 400px;
+  transition: 0.2s;
+}
+.ReleasesGlasses img:hover{
+  rotate: 1deg;
+}
+.ReleasesContain button{
+  padding: 20px 60px;
+  background: #FEC63E;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-top: 10px;
+}
+@media (max-width:1200px){
+  .ReleasesContain{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width:400px){
+  .ReleasesGlasses img{
+    width: 300px;
+    margin: auto;
+  }
+}

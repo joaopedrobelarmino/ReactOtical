@@ -1,0 +1,49 @@
+.Oakley{
+  max-width: 1280px;
+  padding-top: 160px;
+  padding-top: 160px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+.Oakley h1{
+  font-size: 8rem;
+}
+.Oakley p{
+  font-family: 'Roboto';
+  font-size: 1.3rem;
+  margin-top: -60px;
+}
+.Oakley img{
+  width: 1200px;
+  padding-bottom: 160px;
+}
+.Oakley button{
+  padding: 20px 60px;
+  border: none;
+  background: #FFBC1A;
+  font-size: 18px;
+  border-radius: 2px;
+}
+@media (max-width:1200px){
+  .Oakley{
+    flex-direction: column;
+    text-align: center;
+  }
+  .Oakley h1{
+    font-size: 4rem;
+  }
+  .Oakley p{
+    margin-top: 0px;
+  }
+  .Oakley button{
+    margin-bottom: 160px;
+  }
+}
+@media (max-width:800px){
+  .Oakley img{
+    width: 500px;
+  }
+}
